@@ -36,7 +36,6 @@ ChromatinHMM/
 │
 ├── experiments/
 │   ├── prepare_annotations.py       # One-time setup: build annotation BED files
-│   ├── confusion_matrix.py          # State assignment vs ChromHMM reference
 │   ├── biological_analysis.py       # Annotation overlaps + fold enrichment (bedtools)
 │   ├── roadmap_comparison.py        # Comparison vs Roadmap E116 15-state model
 │   ├── expression_correlation.py    # TPM by state using RNA-seq
@@ -66,7 +65,7 @@ ChromatinHMM/
 
 ---
 
-## Large input data (not in this repository)
+## Large input data 
 
 The following files are too large to include. Download instructions:
 
@@ -120,7 +119,7 @@ Already included in `data/gm12878_rnaseq_gene_quant.tsv`. If missing, download f
 
 ```bash
 # Clone the repo
-git clone <repo-url>
+git clone https://github.com/tori-chou/ChromatinHMM
 cd ChromatinHMM
 
 # Install Python dependencies
