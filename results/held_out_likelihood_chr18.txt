@@ -1,0 +1,7 @@
+Held-out log-likelihood on chr18
+Bins: 401866  Marks: 5
+
+  poisson       LL =      -266535347.54  (-663.2443 per bin)
+  nb            LL =        -2571248.61  (-6.3983 per bin)
+
+  NB − Poisson = +263964098.93  (NB fits chr18 better)

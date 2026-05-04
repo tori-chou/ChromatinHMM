@@ -1,0 +1,49 @@
+{
+  "bernoulli": {
+    "0": "Quiescent I",
+    "1": "Quiescent II",
+    "2": "ZNF/Repeats",
+    "3": "Enhancer",
+    "4": "Weak Transcription I",
+    "5": "Quiescent III",
+    "6": "Active TSS",
+    "7": "Weak Polycomb I",
+    "8": "Weak Polycomb II",
+    "9": "Weak Transcription II"
+  },
+  "poisson": {
+    "0": "Quiescent I",
+    "1": "Flanking TSS",
+    "2": "Weak Transcription I",
+    "3": "Active TSS I",
+    "4": "Quiescent II",
+    "5": "Active TSS II",
+    "6": "Weak Transcription II",
+    "7": "Quiescent III",
+    "8": "Heterochromatin",
+    "9": "Enhancer"
+  },
+  "nb": {
+    "0": "Quiescent I",
+    "1": "Enhancer",
+    "2": "Weak Transcription I",
+    "3": "Weak Transcription II",
+    "4": "Quiescent II",
+    "5": "Active TSS",
+    "6": "Quiescent III",
+    "7": "Quiescent IV",
+    "8": "Heterochromatin",
+    "9": "Quiescent V"
+  },
+  "chromhmm": {
+    "0": "Transcribed",
+    "1": "Weak Transcription",
+    "2": "Enhancer",
+    "3": "Active TSS",
+    "4": "Quiescent I",
+    "6": "Quiescent II",
+    "7": "Quiescent III",
+    "8": "Quiescent IV",
+    "9": "Quiescent V"
+  }
+}

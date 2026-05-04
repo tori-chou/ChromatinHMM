@@ -1,0 +1,17 @@
+Gene expression (TPM) by HMM state — TSS assignment on chr17, chr19, chr21, chr22  [model: chromhmm]
+RNA-seq: GM12878 total RNA-seq GRCh38 (ENCFF910XWA)
+
+  State       N genes  Median TPM    Mean TPM   % expressed
+----------------------------------------------------------
+  State1           27        0.60        4.87         74.1%
+  State2          384        0.03        4.91         61.7%
+  State3          171        0.07        8.40         66.7%
+  State4         1882        3.31       14.85         95.3%
+  State5          308        0.00        0.39         21.1%
+  State7            1        0.18        0.18        100.0%
+  State8            7        0.06        0.28         85.7%
+  State9            1        0.00        0.00          0.0%
+  State10         525        0.00        0.27         23.8%
+
+Kruskal-Wallis test across states: H=1570.63, p=0.00e+00
+Mann-Whitney (State4 median=3.31 > State5 median=0.00): U=542674, p=3.84e-134
